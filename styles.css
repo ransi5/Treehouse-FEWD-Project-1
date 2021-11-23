@@ -40,7 +40,6 @@ a:hover {
   margin: 0 auto;
   padding: 0;
 }
-
 .nav .name {
     display: block;
     margin-right: auto;
@@ -56,11 +55,9 @@ a:hover {
 .nav a:hover {
   color: white
 }
-
 header {
   padding-top: 60px;
 }
-
 .index-header {
   text-align: center;
   background: url('images/calgary.jpg') no-repeat top center;
@@ -69,7 +66,6 @@ header {
   background-attachment: fixed;
   line-height: 1.5;
 }
-
 header .profile-image {
   margin-top: 50px;
   width: 150px;
@@ -107,12 +103,10 @@ header .profile-image:hover {
 .card:hover {
   border-color: #ff99ff;
 }
-
 ul.skills {
   padding: 0;
   text-align: center;
 }
-
 .skills li {
   border-radius: 6px;
   display: inline-block;
@@ -121,32 +115,26 @@ ul.skills {
   padding: 5px 10px;
   margin: 2px;
 }
-
 .skills li:nth-child(odd) {
   background: #0399ff;
 }
-
 footer {
   width: 100%;
   min-height: 30px;
   padding: 20px 0 40px 20px;
 }
-
 footer .copyright {
   top: -8px;
   font-size: .75em;
 }
-
 footer ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
-
 footer ul li {
   display: inline-block;
 }
-
 a.social {
   display: inline-block;
   text-indent: -9999px;
@@ -157,7 +145,6 @@ a.social {
   opacity: .4;
   transition: all .5s;
 }
-
 a.github {
   background-image: url(images/github.svg);
 }
@@ -167,20 +154,16 @@ a.social:hover {
 .clearfix {
   clear: both;
 }
-
 .highlight {
   font-size: 130%;
   color: #0088FF;
   font-weight: bold;
 }
-
 section:hover{
   transform: scale(1.1);
   box-shadow: 5px 10px 15px #DEE2E5;
   transition: all .5s;
-
 }
-
 .index-main {
   text-align: center;
   background: url('images/developer-pic.jpg') no-repeat top center;
@@ -188,7 +171,6 @@ section:hover{
   overflow: hidden;
   padding: 30px 0px;
 }
-
 .exp-header {
   text-align: right;
   background: url('images/experience.jpg') no-repeat top center;
@@ -196,18 +178,15 @@ section:hover{
   overflow: hidden;
   background-attachment: fixed;
 }
-
 .exp-header h1, .exp-header h3{
   margin-right: 80px;
 }
-
 .exp-header h1{
   margin-top: 60px;
   color: #BF5E5E;
   font-weight: bold;
   text-shadow: 2px 2px 10px grey;
 }
-
 body .exp-card{
   font-size: 1.1em;
   margin: 30px 100px;
@@ -219,22 +198,18 @@ body .exp-card{
   border-radius: 6px;
   transition: all .5s;
 }
-
 .company{
   font-weight: bold;
   text-decoration: underline;
 }
-
 .place, .period{
   text-align: right;
 }
-
 body .exp-card .intro li{
   display:inline-block;
   float: left;
   width: 50%;
 }
-
 .contact a{
   margin: 100px 120px;
   color: black;
@@ -242,7 +217,6 @@ body .exp-card .intro li{
 
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
-
   .flex {
       display: -ms-flexbox;      /* TWEENER - IE 10 */
       display: flex;
@@ -251,31 +225,25 @@ body .exp-card .intro li{
       justify-content: space-around;
       margin: 0 auto;
   }
-
   header {
     min-height: 470px;
   }
-
   .nav {
     max-width: 1200px;
     padding: 0 30px;
   }
-
-
   main {
     padding-top: 20px;
   }
-
   main p {
     line-height: 1.6em;
   }
-
   footer {
     font-size: 1.3em;
     max-width: 1200px;
     margin: 40px auto;
   }
-
   main h2{
     text-align: center;
   }
+}
